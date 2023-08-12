@@ -1,0 +1,40 @@
+[11-Aug-2023 16:50:31 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-admin/admin.php(34): require_once('/home1/yaldeyha...')
+#16 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 17:13:08 UTC] PHP Fatal error:  Uncaught Error: Attempt to modify property "admin_notices" on null in /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php:29
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php(47): FusionRedux_Filesystem->__construct()
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php(285): FusionRedux_Filesystem::get_instance()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/framework.php(51): require_once('/home1/yaldeyha...')
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/class.fusionredux-plugin.php(145): require_once('/home1/yaldeyha...')
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/class.fusionredux-plugin.php(82): FusionReduxFrameworkPlugin->includes()
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/fusionredux-framework.php(49): FusionReduxFrameworkPlugin::instance()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/class-fusion-fusionredux.php(134): require_once('/home1/yaldeyha...')
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/class-avada-avadaredux.php(61): Fusion_FusionRedux->init_fusionredux()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): Avada_AvadaRedux->init_fusionredux('')
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(632): do_action('init')
+#12 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-admin/admin.php(34): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-admin/themes.php(10): require_once('/home1/yaldeyha...')
+#16 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/themes/Avada/includes/lib/inc/redux/framework/FusionReduxCore/inc/class.fusionredux_filesystem.php on line 29

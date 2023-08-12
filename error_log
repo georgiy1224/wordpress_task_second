@@ -1,0 +1,190 @@
+[11-Aug-2023 16:51:00 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:52:49 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:53:17 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:53:41 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:53:54 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:54:38 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:54:45 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:54:48 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 16:55:43 UTC] PHP Fatal error:  Uncaught TypeError: round(): Argument #1 ($num) must be of type int|float, string given in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php:636
+Stack trace:
+#0 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(636): round('1px')
+#1 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/inc/class-fusion-builder-element.php(112): FusionSC_Button->add_styling()
+#2 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(39): Fusion_Element->__construct()
+#3 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php(880): FusionSC_Button->__construct()
+#4 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(586): require_once('/home1/yaldeyha...')
+#5 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(1427): FusionBuilder->init_shortcodes()
+#6 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(200): FusionBuilder->includes()
+#7 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(174): FusionBuilder->__construct()
+#8 /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/fusion-builder.php(2230): FusionBuilder::get_instance()
+#9 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(310): fusion_builder_activate('')
+#10 /home1/yaldeyha/public_html/gelectronic/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 /home1/yaldeyha/public_html/gelectronic/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#12 /home1/yaldeyha/public_html/gelectronic/wp-settings.php(610): do_action('after_setup_the...')
+#13 /home1/yaldeyha/public_html/gelectronic/wp-config.php(94): require_once('/home1/yaldeyha...')
+#14 /home1/yaldeyha/public_html/gelectronic/wp-load.php(50): require_once('/home1/yaldeyha...')
+#15 /home1/yaldeyha/public_html/gelectronic/wp-blog-header.php(13): require_once('/home1/yaldeyha...')
+#16 /home1/yaldeyha/public_html/gelectronic/index.php(17): require('/home1/yaldeyha...')
+#17 {main}
+  thrown in /home1/yaldeyha/public_html/gelectronic/wp-content/plugins/fusion-builder/shortcodes/fusion-button.php on line 636
+[11-Aug-2023 18:15:08 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: תיזמון האירוע לא קיים., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
